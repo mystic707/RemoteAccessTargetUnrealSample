@@ -1,0 +1,35 @@
+/RemoteAccessTest003/Binaries
+/RemoteAccessTest003/Build
+/RemoteAccessTest003/DerivedDataCache
+/RemoteAccessTest003/Intermediate
+/RemoteAccessTest003/Saved
+
+# Ignore build files and outputs
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.vs/
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.vscode
+*.suo
+*.user
+*.useros
+*.userprefs
+*.sln.docstates
+*.swp
+*.htm
+
+# Project-specific files
+!*.uproject
+!*.uplugin
+!Content/
+!Source/
+!Config/
+!*.ini
+!*.ini~

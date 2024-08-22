@@ -1,0 +1,182 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31314.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automation", "Automation", "{0BFBE63A-B98A-3411-8EEB-8918FEC737B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{A338B9E2-A559-34BE-A46D-F789DD488FAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{57713676-9DBE-331C-AD10-26632AC9EE0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnrealBuildTool.Plugins", "UnrealBuildTool.Plugins", "{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealBuildTool", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj", "{88CC5881-965E-31F2-BD14-7E565D93EA40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTool", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/AutomationTool.csproj", "{4CF60005-FB77-3883-9675-15C34630DE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Android/Android.Automation.csproj", "{D0D4974A-A8F3-3920-85B7-C1C24FD8E00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Apple/Apple.Automation.csproj", "{FD4490D2-7E0C-3D8F-9F5B-374B47CC07D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationUtils.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/AutomationUtils/AutomationUtils.Automation.csproj", "{06EAD9D4-1AFA-3A16-8C43-A7341CBCFC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildGraph.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/BuildGraph/BuildGraph.Automation.csproj", "{21E19D13-C5CF-31BD-B89D-CA66C8AAA1DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookedEditor.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/CookedEditor/CookedEditor.Automation.csproj", "{522140EB-D8E5-33BE-A38B-C8E88F49CD23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdinLocalization.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/CrowdinLocalization/CrowdinLocalization.Automation.csproj", "{BBB9F62C-763D-373A-8DED-8C28F4A0F23B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gauntlet.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Gauntlet/Gauntlet.Automation.csproj", "{6F944F10-2EAB-3750-A90D-F35880B74047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOS.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/IOS/IOS.Automation.csproj", "{381EF214-2771-3670-B56D-7DE47788B262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Linux/Linux.Automation.csproj", "{16E74372-13CC-3DD0-B7CB-A290DB4A913C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Localization/Localization.Automation.csproj", "{C9F3E1D7-5EF4-3F3A-A653-04FA727C7E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowLevelTests.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/LowLevelTests/LowLevelTests.Automation.csproj", "{80C19044-D7BA-32AE-8709-48474347A145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mac.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Mac/Mac.Automation.csproj", "{44D7DF66-17FA-39C5-813C-D02E0311C175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSkyLocalization.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/OneSkyLocalization/OneSkyLocalization.Automation.csproj", "{924826DE-00B2-3D03-9B85-5416335AFBE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScripts.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Scripts/AutomationScripts.Automation.csproj", "{98E3E005-CB24-3613-96F3-D116E003EF76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartlingLocalization.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/SmartlingLocalization/SmartlingLocalization.Automation.csproj", "{3AFF7513-EB61-33FF-BD06-B89D2EF9EDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamDeck.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/SteamDeck/SteamDeck.Automation.csproj", "{BD79E703-B482-3176-AA6E-A5158E32AA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVOS.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/TVOS/TVOS.Automation.csproj", "{B2FB71F8-78AA-3A2A-8994-07AC80B77CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turnkey.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Turnkey/Turnkey.Automation.csproj", "{EA0C0932-1518-3F59-96B2-D107C4CB96D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/Win/Win.Automation.csproj", "{E62DB43D-0FDE-3395-B717-CB0B8724A42A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLocLocalization.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/AutomationTool/XLocLocalization/XLocLocalization.Automation.csproj", "{5CE94FD3-4AEC-3E5A-9029-5F431558FC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisionOS.Automation", "../../../../Shared/Epic Games/UE_5.4/Engine/Platforms/VisionOS/Source/Programs/AutomationTool/VisionOS.Automation.csproj", "{64A4A53F-2320-360C-93EB-2236E6709EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptGeneratorUbtPlugin.ubtplugin", "../../../../Shared/Epic Games/UE_5.4/Engine/Plugins/ScriptPlugin/Source/ScriptGeneratorUbtPlugin/ScriptGeneratorUbtPlugin.ubtplugin.csproj", "{FF5C7472-A5E7-3EDD-84B6-6115A9ADCF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.MongoDB", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.MongoDB/EpicGames.MongoDB.csproj", "{47418935-960D-3825-8E36-6985AA21BFB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce.Managed", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Perforce.Managed/EpicGames.Perforce.Managed.csproj", "{668650C8-35C4-3154-86C4-6DA9155601A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.ProjectStore", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.ProjectStore/EpicGames.ProjectStore.csproj", "{5B359369-B551-321B-B314-0E347F9C98F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Jupiter", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Jupiter/EpicGames.Jupiter.csproj", "{088A81B0-6B05-3C24-AE63-1DEDC44F3397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.BuildGraph", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.BuildGraph/EpicGames.BuildGraph.csproj", "{9EDB3996-D2BA-31FE-86B2-51A2D6B8F049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Build", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Build/EpicGames.Build.csproj", "{AE65E099-05A2-34DA-AF49-19A1B7AC099A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Slack", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Slack/EpicGames.Slack.csproj", "{FE458173-1461-3C88-A3B4-3A9253DDBAFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Core", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Core/EpicGames.Core.csproj", "{A994536E-DF78-3193-BC65-C5932DD496B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce.Fixture", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Perforce.Fixture/EpicGames.Perforce.Fixture.csproj", "{9BC4C5ED-901A-3DF2-8080-E6FD4738A688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Oodle", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Oodle/EpicGames.Oodle.csproj", "{E290585D-AC7F-3F7A-8569-DBC69F595A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.MsBuild", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.MsBuild/EpicGames.MsBuild.csproj", "{E7616877-D496-3FF6-88CC-B67F49124AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Perforce/EpicGames.Perforce.csproj", "{337864C1-6DCB-3F76-8877-6BA07FAF9774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Tracing", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Tracing/EpicGames.Tracing.csproj", "{BAA012A8-5CDF-3BFC-BC6D-1E027FCB1257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.AspNet", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.AspNet/EpicGames.AspNet.csproj", "{5F614B4D-6741-3683-90AF-DE05229403BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.OIDC", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.OIDC/EpicGames.OIDC.csproj", "{839BB806-00DF-3BCD-A342-B947DF988B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Horde", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Horde/EpicGames.Horde.csproj", "{7EAF777C-7BEE-3624-90EF-BE13E57C3CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.IoHash", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.IoHash/EpicGames.IoHash.csproj", "{16D1A7EE-6C9F-3697-A4CF-A3BD7224F762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Serialization", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Serialization/EpicGames.Serialization.csproj", "{15C95106-16C6-3B20-9CC8-2C4D34C2134C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Redis", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.Redis/EpicGames.Redis.csproj", "{283C07C8-583D-3913-B333-6878D3B74843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.UBA", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.UBA/EpicGames.UBA.csproj", "{B54EF2DB-0AB2-3831-9D25-A4A0AB4CF6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.UHT", "../../../../Shared/Epic Games/UE_5.4/Engine/Source/Programs/Shared/EpicGames.UHT/EpicGames.UHT.csproj", "{3864276A-9021-3F19-B8BD-4B091003000B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteAccessTest003ModuleRules", "Intermediate/Build/BuildRulesProjects/RemoteAccessTest003ModuleRules/RemoteAccessTest003ModuleRules.csproj", "{9263A5BA-D247-3974-9A8F-3360F46616D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UE5ProgramRules", "../../../../Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj", "{D2B4F1E5-79C5-3597-A917-281688614973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UE5Rules", "../../../../Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/BuildRulesProjects/UE5Rules/UE5Rules.csproj", "{51962E9A-A583-35C2-BECE-365D868834AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{1CCEC849-CC72-4C59-8C36-2F7C38706D4C}"
+	ProjectSection(SolutionItems) = preProject
+		../../../../Shared/Epic Games/UE_5.4/Engine/Extras/VisualStudioDebugging/Unreal.natvis = ../../../../Shared/Epic Games/UE_5.4/Engine/Extras/VisualStudioDebugging/Unreal.natvis
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	# UnrealVS Section
+	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
+		AvailablePlatforms=
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88CC5881-965E-31F2-BD14-7E565D93EA40} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{4CF60005-FB77-3883-9675-15C34630DE18} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{57713676-9DBE-331C-AD10-26632AC9EE0C} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{D0D4974A-A8F3-3920-85B7-C1C24FD8E00A} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{FD4490D2-7E0C-3D8F-9F5B-374B47CC07D4} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{06EAD9D4-1AFA-3A16-8C43-A7341CBCFC73} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{21E19D13-C5CF-31BD-B89D-CA66C8AAA1DD} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{522140EB-D8E5-33BE-A38B-C8E88F49CD23} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{BBB9F62C-763D-373A-8DED-8C28F4A0F23B} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{6F944F10-2EAB-3750-A90D-F35880B74047} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{381EF214-2771-3670-B56D-7DE47788B262} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{16E74372-13CC-3DD0-B7CB-A290DB4A913C} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{C9F3E1D7-5EF4-3F3A-A653-04FA727C7E5C} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{80C19044-D7BA-32AE-8709-48474347A145} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{44D7DF66-17FA-39C5-813C-D02E0311C175} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{924826DE-00B2-3D03-9B85-5416335AFBE5} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{98E3E005-CB24-3613-96F3-D116E003EF76} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{3AFF7513-EB61-33FF-BD06-B89D2EF9EDC6} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{BD79E703-B482-3176-AA6E-A5158E32AA05} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{B2FB71F8-78AA-3A2A-8994-07AC80B77CB2} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{EA0C0932-1518-3F59-96B2-D107C4CB96D4} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{E62DB43D-0FDE-3395-B717-CB0B8724A42A} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{5CE94FD3-4AEC-3E5A-9029-5F431558FC20} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{64A4A53F-2320-360C-93EB-2236E6709EFA} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{FF5C7472-A5E7-3EDD-84B6-6115A9ADCF5C} = {7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B}
+		{47418935-960D-3825-8E36-6985AA21BFB8} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{668650C8-35C4-3154-86C4-6DA9155601A4} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{5B359369-B551-321B-B314-0E347F9C98F2} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{088A81B0-6B05-3C24-AE63-1DEDC44F3397} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{9EDB3996-D2BA-31FE-86B2-51A2D6B8F049} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{AE65E099-05A2-34DA-AF49-19A1B7AC099A} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{FE458173-1461-3C88-A3B4-3A9253DDBAFB} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{A994536E-DF78-3193-BC65-C5932DD496B7} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{9BC4C5ED-901A-3DF2-8080-E6FD4738A688} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{E290585D-AC7F-3F7A-8569-DBC69F595A2C} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{E7616877-D496-3FF6-88CC-B67F49124AA2} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{337864C1-6DCB-3F76-8877-6BA07FAF9774} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{BAA012A8-5CDF-3BFC-BC6D-1E027FCB1257} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{5F614B4D-6741-3683-90AF-DE05229403BD} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{839BB806-00DF-3BCD-A342-B947DF988B05} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{7EAF777C-7BEE-3624-90EF-BE13E57C3CC5} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{16D1A7EE-6C9F-3697-A4CF-A3BD7224F762} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{15C95106-16C6-3B20-9CC8-2C4D34C2134C} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{283C07C8-583D-3913-B333-6878D3B74843} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{B54EF2DB-0AB2-3831-9D25-A4A0AB4CF6E4} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{3864276A-9021-3F19-B8BD-4B091003000B} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{9263A5BA-D247-3974-9A8F-3360F46616D7} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
+		{D2B4F1E5-79C5-3597-A917-281688614973} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
+		{51962E9A-A583-35C2-BECE-365D868834AB} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
+	EndGlobalSection
+EndGlobal
